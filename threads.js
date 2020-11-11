@@ -20,6 +20,8 @@ crypto.pbkdf2('a','b',100000,512,'sha512',function(){
     console.log('4: ',Date.now()-start);
 });
 
+console.log('Hello');
+
 crypto.pbkdf2('a','b',100000,512,'sha512',function(){
     console.log('5: ',Date.now()-start);
 });
