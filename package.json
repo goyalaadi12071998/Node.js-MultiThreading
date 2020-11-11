@@ -1,0 +1,12 @@
+{
+  "name": "event-loop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "set UV_THREADPOOL_SIZE=2 && node threads.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
